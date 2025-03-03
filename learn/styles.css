@@ -1,3 +1,45 @@
-table,td{
-    border: 2px solid rgb(140 25 140);
+/* styles.css */
+body {
+    background: #FFCCE1; /* Add a background color */
 }
+
+table, td {
+    border-collapse: collapse;
+    border: 2px solid rgb(140, 25, 140); /* Correct border color */
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+/* hover on */
+img:hover{
+    width: 100px;
+    height: 100px;
+}
+
+/* class */
+.KN{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Rounded corners */
+}
+.image{
+    color: antiquewhite;
+}
+
+/* id */
+#heading{
+    color: aquamarine;
+}
+
+hr{
+    /* background-color: azure; */
+    border-color: antiquewhite;
+    border-style: dotted none none none;
+    border-width: 5px;
+    /* height: 2px; */
+    width: 100%;
+}
+
+
+
+
